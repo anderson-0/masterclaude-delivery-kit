@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./secrets/**)",
+      "Read(~/.ssh/**)",
+      "Read(~/.aws/**)"
+    ],
+    "disableBypassPermissionsMode": "disable",
+    "disableAutoMode": "disable"
+  },
+  "allowManagedPermissionRulesOnly": true,
+  "strictKnownMarketplaces": [
+    { "source": "github", "repo": "northwind/claude-plugins" }
+  ],
+  "extraKnownMarketplaces": {
+    "northwind-claude": { "source": { "source": "github", "repo": "northwind/claude-plugins" } }
+  },
+  "enabledPlugins": { "northwind-starter@northwind-claude": true },
+  "env": {
+    "CLAUDE_CODE_ENABLE_TELEMETRY": "1",
+    "OTEL_METRICS_EXPORTER": "otlp",
+    "OTEL_EXPORTER_OTLP_ENDPOINT": "https://otel.northwind.example:4318",
+    "OTEL_EXPORTER_OTLP_PROTOCOL": "http/protobuf"
+  }
+}

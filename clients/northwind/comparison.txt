@@ -1,0 +1,9 @@
+# Comparison group: same two teams, no Claude Code until Day 30. Seniority differs: no staff engineers (see the pilot charter)
+uma-j
+zane-u
+esme-w
+jamal-s
+victor-z
+abby-c
+felix-b
+kai-o

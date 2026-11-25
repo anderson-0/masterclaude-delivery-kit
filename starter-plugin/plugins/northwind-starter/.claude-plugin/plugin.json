@@ -1,0 +1,8 @@
+{
+  "name": "northwind-starter",
+  "version": "0.1.0",
+  "description": "Northwind's Claude Code starter: test-backfill and verification skills plus a secrets guardrail.",
+  "author": {
+    "name": "Northwind Platform Team"
+  }
+}

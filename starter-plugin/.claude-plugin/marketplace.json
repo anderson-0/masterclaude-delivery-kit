@@ -1,0 +1,14 @@
+{
+  "name": "northwind-claude",
+  "owner": {
+    "name": "Northwind Platform Team"
+  },
+  "description": "Northwind's internal Claude Code plugins. Managed by the platform team.",
+  "plugins": [
+    {
+      "name": "northwind-starter",
+      "source": "./plugins/northwind-starter",
+      "description": "Northwind's Claude Code starter: test-backfill and verification skills plus a secrets guardrail."
+    }
+  ]
+}

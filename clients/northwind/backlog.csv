@@ -1,0 +1,13 @@
+id,title,team,type,items_last_quarter,avg_dev_hours_each,output_is_checkable,owner,notes
+NW-01,Backfill unit tests for untested billing modules,billing,test-backfill,120 modules untested,6,yes (tests pass in CI; coverage report),Sofia Alvarez,Proration bugs reached customers twice last quarter
+NW-02,Backfill tests for the scheduler and MeetingMemo,dispatch,test-backfill,85 modules untested,5,yes (tests pass in CI; coverage report),Tom Becker,Manual regression pass on every release
+NW-03,Quarterly dependency upgrades across services,platform,upgrade,4 per quarter,40,yes (CI green; changelog review),platform team,Next.js major upgrade due in Q2
+NW-04,Reproduce customer-reported bugs from support tickets,all,bugfix,150 tickets,3,partly (repro test fails then passes),support liaison,Half are not reproducible
+NW-05,Rewrite the legacy invoicing engine,billing,rewrite,1,2000,no (no spec; behavior undocumented),Sofia Alvarez,CEO pet project; no spec exists
+NW-06,Customer-facing AI chatbot,all,new product,1,unknown,no,CEO,Wishlist item from the board meeting
+NW-07,Fix accessibility audit findings in the mobile app,mobile,fix,240 findings,1.5,yes (axe checks; audit IDs),mobile EM,External audit report available
+NW-08,Extract UI strings for the Spanish launch,mobile,i18n,1800 strings,0.1,yes (lint rule; screenshot diff),mobile EM,Launch date not fixed yet
+NW-09,Write on-call runbooks for top 20 alerts,platform,docs,20 runbooks,4,partly (peer review only),platform team,Nobody wants to own this
+NW-10,Ad-hoc SQL reports for operations,integrations,reporting,60 requests,2,partly (ops confirms numbers),integrations EM,Needs read access to production replicas
+NW-11,Triage flaky tests in CI,platform,fix,35 flaky tests,4,yes (test passes 50 runs in a row),platform team,Blocks merges about twice a week
+NW-12,Migrate date handling from moment to date-fns,dispatch,refactor,400 call sites,0.3,yes (tests + type check),Tom Becker,Low priority

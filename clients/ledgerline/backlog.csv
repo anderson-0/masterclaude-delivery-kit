@@ -1,0 +1,10 @@
+id,title,team,type,items_last_quarter,avg_dev_hours_each,output_is_checkable,owner,notes
+LL-01,Migrate ledger modules from Java 8 to Java 21,ledger,legacy-migration,140 modules left,30,yes (characterization tests; CI; CAB checklist),Rui Costa,Two reviews + CAB per module
+LL-02,Write characterization tests before each migration,ledger,test-backfill,140 modules,8,yes (tests pin current behavior),Rui Costa,Prerequisite for LL-01
+LL-03,Refactor payments-core settlement engine,payments-core,refactor,1,600,partly,payments-core EM,PCI scope; CISO says not in first pilot
+LL-04,Onboarding form validation improvements,onboarding,feature,25 forms,6,yes (unit tests; e2e),onboarding EM,Greenfield; low risk; low business impact
+LL-05,Explain risk-model SQL for auditors,risk,docs,40 queries,5,partly (auditor review),risk EM,Needs read access to anonymized data
+LL-06,Upgrade internal libraries for CVE fixes,platform,upgrade,60 bumps,2,yes (CI; scanner clears CVE),Mette Lund,Mostly automated already by a bot
+LL-07,Generate API reference docs,platform,docs,1 site,80,partly,Mette Lund,Nice to have
+LL-08,Mobile app crash fixes from crash reports,mobile,bugfix,90 crashes,3,yes (crash rate; repro test),mobile EM,Crash tool export available
+LL-09,AI assistant for customer support agents,risk,new product,1,unknown,no,CIO office,Board idea; no owner
